@@ -2,13 +2,20 @@ import  java.awt.*;
 import  java.awt.event.*;
 
 import  java.util.ArrayList;
+import  java.util.Properties;
 import  java.io.FileInputStream;
 import  java.io.InputStreamReader;
 import  java.io.BufferedReader;
 
 public
 class ImagePanel extends Frame{
-	public static String HOME = "/Users/segawakenji/ImagePanel/ncsj2022/ImagePanel/";
+	public static String HOME = "/";
+
+	static{
+		Properties props = System.getProperties();
+		HOME = props.getProperty("user.dir") + "/ImagePanel/";
+	}
+
 	PositionChecker [] checkers		= null;
 	PaintComponent [] comps			= null;
 	MouseAdapter [] mouseListeners = null;
