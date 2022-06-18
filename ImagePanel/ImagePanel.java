@@ -8,6 +8,7 @@ import  java.io.BufferedReader;
 
 public
 class ImagePanel extends Frame{
+	public static String HOME = "/Users/segawakenji/ImagePanel/ncsj2022/ImagePanel/";
 	PositionChecker [] checkers		= null;
 	PaintComponent [] comps			= null;
 	MouseAdapter [] mouseListeners = null;
@@ -85,7 +86,7 @@ class ImagePanel extends Frame{
 
 	void loadRectangles(){
 		try{
-			FileInputStream fin = new FileInputStream("rectangles.csv");
+			FileInputStream fin = new FileInputStream(HOME + "rectangles.csv");
 			InputStreamReader is = new InputStreamReader(fin);
 			BufferedReader reader = new BufferedReader(is);
 
@@ -110,8 +111,8 @@ class ImagePanel extends Frame{
 					Color color = checkColor(cols[4]);
 
 					clist.add(color);
-					plist.add(cols[5]);
-					dlist.add(cols[6]);
+					plist.add(HOME + cols[5]);
+					dlist.add(HOME + cols[6]);
 				}
 				catch(NumberFormatException ne){
 					;
