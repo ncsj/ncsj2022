@@ -10,10 +10,11 @@ import  java.io.BufferedReader;
 public
 class ImagePanel extends Frame{
 	public static String HOME = "/";
+	public static final String IMAGE_PANEL_DIR = "/ImagePanel/";
 
 	static{
 		Properties props = System.getProperties();
-		HOME = props.getProperty("user.dir") + "/ImagePanel/";
+		HOME = props.getProperty("user.dir") + IMAGE_PANEL_DIR;
 	}
 
 	PositionChecker [] checkers		= null;
