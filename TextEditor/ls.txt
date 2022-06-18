@@ -1,0 +1,19 @@
+total 80
+-rw-r--r--  1 segawakenji  staff   119  5 31 16:30 Closable.class
+-rw-r--r--@ 1 segawakenji  staff    45  5 19 16:13 Closable.java
+-rw-r--r--  1 segawakenji  staff   410  5 31 16:30 Closer.class
+-rw-r--r--@ 1 segawakenji  staff   229  5 19 16:16 Closer.java
+-rw-r--r--  1 segawakenji  staff  1616  5 31 16:30 SearchDialog.class
+-rw-r--r--@ 1 segawakenji  staff  1075  5 19 16:41 SearchDialog.java
+-rw-r--r--  1 segawakenji  staff  6551  6  1 11:13 TextEditor.class
+-rw-r--r--@ 1 segawakenji  staff  4170  6  1 11:12 TextEditor.java
+-rw-r--r--  1 segawakenji  staff     0  6  1 11:14 ls.txt
+
+
+aaaaaaaa
+
+あいうえお
+かきくけこ
+
+さしすせそ
+たちつてと
