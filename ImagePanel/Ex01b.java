@@ -1,7 +1,6 @@
 import  java.awt.*;
 import  java.awt.event.*;
 
-import  java.io.*;
 
 class Ex01b extends Frame{
 	class PositionChecker extends MouseAdapter implements PaintComponent{

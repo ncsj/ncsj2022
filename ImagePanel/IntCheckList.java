@@ -46,7 +46,6 @@ public class IntCheckList extends CheckList{
 
 	public boolean checkPositive(Object o) throws CheckItemException{
 		boolean rtc = false;
-		Integer n = (Integer)o;
 
 		for(int i=0;i<length();i++){
 			CheckItem item = get(i);
@@ -61,7 +60,6 @@ public class IntCheckList extends CheckList{
 
 	public boolean checkNegative(Object o) throws CheckItemException{
 		boolean rtc = true;
-		Integer n = (Integer)o;
 
 		for(int i=0;i<length();i++){
 			CheckItem item = get(i);

@@ -222,7 +222,7 @@ class TextEditor extends Frame implements Closable{
 	}
 
 	void openSearchDialog(){
-		SearchDialog dlg = new SearchDialog(this);
+		new SearchDialog(this);
 	}
 
 	void openReplaceDialog(){

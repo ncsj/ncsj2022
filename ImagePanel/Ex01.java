@@ -1,7 +1,6 @@
 import  java.awt.*;
 import  java.awt.event.*;
 
-import  java.io.*;
 
 class Ex01 extends Frame{
 	class PositionChecker{
@@ -67,14 +66,6 @@ class Ex01 extends Frame{
 			int h = 200;
 			this.redChecker = new PositionChecker(x,y,x+w,y+h);
 		}
-
-		addMouseMotionListener(new MouseAdapter(){
-			@Override
-			public void mouseMoved(MouseEvent e){
-				int x = e.getX();
-				int y = e.getY();
-			}
-		});
 
 		addMouseListener(new MouseAdapter(){
 			@Override

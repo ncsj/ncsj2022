@@ -4,7 +4,7 @@ import  java.io.*;
 
 public class HelloServlet  extends HttpServlet{
     @Override
-    public void doGet(HttpServletRequest res,HttpServletResponse res) throws ServletException,IOException{
+    public void doGet(HttpServletRequest req,HttpServletResponse res) throws ServletException,IOException{
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
 

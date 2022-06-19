@@ -1,11 +1,6 @@
 import  java.awt.*;
 import  java.awt.event.*;
 
-import  java.util.ArrayList;
-import  java.io.FileInputStream;
-import  java.io.InputStreamReader;
-import  java.io.BufferedReader;
-
 public
 class PositionChecker extends MouseAdapter implements PaintComponent{
 	boolean  state = false;
@@ -90,17 +85,6 @@ class PositionChecker extends MouseAdapter implements PaintComponent{
 		}
 	}
 
-	@Override
-	public void mouseEntered(MouseEvent e){
-		int x = e.getX();
-		int y = e.getY();
-	}
-
-	@Override
-	public void mouseExited(MouseEvent e){
-		int x = e.getX();
-		int y = e.getY();
-	}
 
 	@Override
 	public void mouseMoved(MouseEvent e){

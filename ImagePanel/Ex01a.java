@@ -1,8 +1,6 @@
 import  java.awt.*;
 import  java.awt.event.*;
 
-import  java.io.*;
-
 class Ex01a extends Frame{
 	class PositionChecker extends MouseAdapter implements PaintComponent{
 		boolean  state = false;
