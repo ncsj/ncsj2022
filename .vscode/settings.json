@@ -3,5 +3,8 @@
         "TextEditor",
         "ImagePanel",
         "SampleProject"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
     ]
 }
