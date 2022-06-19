@@ -7,7 +7,12 @@ import java.sql.SQLException;
 public class HelloSql {
     public static void main(String[] args) {
         try{
+            /**
+              ドライバーを読み込む必要は無くなりました。
+              よって、以下のコードは不要です。
             String driver = "com.mysql.jdbc.Driver";
+            Class.forName(driver);
+            **/
             String url = "jdbc:mysql://localhost/ncsj2022";
             String user = "root";
             String pass = "";
