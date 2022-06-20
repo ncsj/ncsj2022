@@ -9,7 +9,7 @@ import  java.io.BufferedReader;
 
 public
 class ImagePanel extends Frame{
-	public static String HOME = "/";
+	public static String HOME = null;
 	public static final String IMAGE_PANEL_DIR = "/ImagePanel/";
 
 	static{
