@@ -13,6 +13,7 @@ class ImagePanel extends Frame{
 	public static final String IMAGE_PANEL_DIR = "/ImagePanel/";
 
 	static{
+		// Comment
 		Properties props = System.getProperties();
 		HOME = props.getProperty("user.dir") + IMAGE_PANEL_DIR;
 	}
