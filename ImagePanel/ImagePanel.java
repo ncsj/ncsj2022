@@ -55,6 +55,7 @@ class ImagePanel extends Frame{
 
 		add(btn1);
 		btn1.setBounds(650,540,100,30);
+		btn1.setBackground(Color.white);
 		btn1.addActionListener((ActionEvent e)->{ reset(); });
 
 		setVisible(true);
