@@ -90,7 +90,7 @@ class PositionChecker extends MouseAdapter implements PaintComponent{
 	public void mouseMoved(MouseEvent e){
 		int x = e.getX();
 		int y = e.getY();
-		if(check(x,y)){
+		if(check(x,y) && this.state){
 			if(entered){
 			}
 			else{
