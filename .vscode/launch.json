@@ -1,0 +1,147 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01",
+            "request": "launch",
+            "mainClass": "Ex01",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01a",
+            "request": "launch",
+            "mainClass": "Ex01a",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01b",
+            "request": "launch",
+            "mainClass": "Ex01b",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01c",
+            "request": "launch",
+            "mainClass": "Ex01c",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01d",
+            "request": "launch",
+            "mainClass": "Ex01d",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloServlet",
+            "request": "launch",
+            "mainClass": "HelloServlet",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloSql",
+            "request": "launch",
+            "mainClass": "HelloSql",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImagePanel",
+            "request": "launch",
+            "mainClass": "ImagePanel",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntCheckList",
+            "request": "launch",
+            "mainClass": "IntCheckList",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntEquivCheckItem",
+            "request": "launch",
+            "mainClass": "IntEquivCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntEvenCheckItem",
+            "request": "launch",
+            "mainClass": "IntEvenCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntOddCheckItem",
+            "request": "launch",
+            "mainClass": "IntOddCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntOverCheckItem",
+            "request": "launch",
+            "mainClass": "IntOverCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntPrimeCheckItem",
+            "request": "launch",
+            "mainClass": "IntPrimeCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntUnderCheckItem",
+            "request": "launch",
+            "mainClass": "IntUnderCheckItem",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchDialog",
+            "request": "launch",
+            "mainClass": "SearchDialog",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextEditor",
+            "request": "launch",
+            "mainClass": "TextEditor",
+            "projectName": "ncsj2022_25476824"
+        },
+        {
+            "type": "java",
+            "name": "Launch URLDialog",
+            "request": "launch",
+            "mainClass": "URLDialog",
+            "projectName": "ncsj2022_25476824"
+        }
+    ]
+}
